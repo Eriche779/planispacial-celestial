@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Deux cadrans astronomiques gratuits pour Garmin fēnix 8 Solar 51 mm : Planispacial et Celestial.">
+  <title>Planispacial &amp; Celestial — cadrans Garmin</title>
+  <style>
+    :root { color-scheme: dark; --bg:#08111d; --panel:#111e2d; --ink:#eef4fa; --muted:#b6c4d3; --accent:#79d6cf; --line:#294054; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:radial-gradient(ellipse at 50% -20%,#17354a,var(--bg) 60%); color:var(--ink); font:16px/1.6 system-ui,sans-serif; }
+    main { max-width:920px; margin:0 auto; padding:48px 22px 72px; }
+    header { text-align:center; padding:20px 0 32px; }
+    h1 { font-size:clamp(2rem,6vw,3.5rem); line-height:1.08; margin:0 0 16px; letter-spacing:-.04em; }
+    h2 { margin:0 0 8px; font-size:1.6rem; }
+    p { margin:8px 0 16px; }
+    .intro,.muted { color:var(--muted); }
+    .cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:18px; }
+    article,.notice { background:var(--panel); border:1px solid var(--line); border-radius:18px; padding:24px; }
+    .tag { color:var(--accent); font-size:.8rem; font-weight:700; letter-spacing:.08em; text-transform:uppercase; }
+    a.button { display:inline-block; margin-top:8px; padding:11px 16px; border-radius:10px; background:var(--accent); color:#07151a; font-weight:750; text-decoration:none; }
+    a.button:hover { filter:brightness(1.08); }
+    section { margin-top:26px; }
+    code { color:#d6e7f4; overflow-wrap:anywhere; }
+    footer { color:var(--muted); font-size:.88rem; border-top:1px solid var(--line); margin-top:32px; padding-top:18px; }
+    @media(max-width:520px) { main { padding:30px 16px 52px; } article,.notice { padding:20px; } }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <div class="tag">Cadrans astronomiques · téléchargement gratuit</div>
+    <h1>Le ciel au poignet</h1>
+    <p class="intro">Deux cadrans indépendants pour la Garmin fēnix 8 Solar 51 mm.</p>
+  </header>
+
+  <div class="notice">
+    <strong>Version de test</strong>
+    <p class="muted">Ces fichiers ont été compilés avec Connect IQ SDK 9.3.0. Une version antérieure a été utilisée sur une fēnix 8 Solar 51 mm. Cette révision ajoute le réglage de latitude et longitude et reste à vérifier sur la montre.</p>
+  </div>
+
+  <section class="cards" aria-label="Cadrans à télécharger">
+    <article>
+      <div class="tag">01 · Planisphère</div>
+      <h2>Planispacial</h2>
+      <p class="muted">Une carte circulaire du ciel local, les étoiles brillantes et l’heure sidérale.</p>
+      <p><a class="button" href="downloads/Planispacial-fenix8solar51mm.prg" download>Télécharger le cadran (.prg)</a></p>
+      <p class="muted">Fichier pour fēnix 8 Solar 51 mm · SHA-256 :<br><code>1500fc797a74d8526c51e64b4cdbf1e113db0c84364b66bd7b6d6b9195804106</code></p>
+    </article>
+    <article>
+      <div class="tag">02 · Ciel profond</div>
+      <h2>Celestial</h2>
+      <p class="muted">Un champ d’étoiles plus dense, les repères cardinaux et un indicateur lunaire.</p>
+      <p><a class="button" href="downloads/Celestial-fenix8solar51mm.prg" download>Télécharger le cadran (.prg)</a></p>
+      <p class="muted">Fichier pour fēnix 8 Solar 51 mm · SHA-256 :<br><code>9a279f0d1e7969986978c0590401c7fba6ddcfdd011b8e638e6bb88dde3ec2bc</code></p>
+    </article>
+  </section>
+
+  <section class="notice">
+    <h2>Installation sous Linux</h2>
+    <ol>
+      <li>Télécharge le fichier correspondant au cadran voulu.</li>
+      <li>Connecte la montre en USB et ouvre son stockage MTP.</li>
+      <li>Copie le fichier <code>.prg</code> dans <code>GARMIN/Apps</code>.</li>
+      <li>Éjecte proprement la montre, débranche-la, puis sélectionne le cadran dans le sélecteur de cadran.</li>
+    </ol>
+    <p class="muted">L’installation directe ne passe pas par Garmin Connect IQ. Les réglages du cadran se font sur la montre, et les mises à jour ne sont pas automatiques.</p>
+  </section>
+
+  <section>
+    <h2>À propos des calculs</h2>
+    <p class="muted">La position initiale est Paris (48,8566° N, 2,3522° E), modifiable dans les réglages. Le calcul lunaire est approximatif et le catalogue stellaire est un sous-ensemble d’étoiles brillantes. Ces cadrans sont illustratifs, pas des instruments de navigation ou des éphémérides de précision.</p>
+  </section>
+
+  <footer>Projet indépendant, non affilié à Garmin. Garmin et fēnix sont des marques de Garmin Ltd. Les cadrans sont fournis tels quels pour essai.</footer>
+</main>
+</body>
+</html>
