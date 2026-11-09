@@ -10,11 +10,14 @@ Cette page statique propose gratuitement les deux builds `.prg` destinés à la 
 - Les calculs astronomiques restent approximatifs; voir le texte de la page.
 - La licence de redistribution n'est pas encore choisie. Ne pas réutiliser ou republier ces fichiers ailleurs sans accord.
 
-## Hébergement gratuit avec GitHub Pages
+## Publication
 
-Le dossier `distribution/` est le contenu prêt à publier comme site statique. Pour le rendre public, il faut créer ou choisir un dépôt GitHub public, y téléverser le contenu de ce dossier, puis activer **Settings → Pages → Deploy from a branch → main → /(root)**. GitHub fournit alors une adresse publique. Les fichiers `.prg` dans `downloads/` sont servis comme téléchargements directs.
+- Site public : <https://eriche779.github.io/planispacial-celestial/>
+- Dépôt public : <https://github.com/Eriche779/planispacial-celestial>
+- GitHub Pages publie la racine de la branche `main`; le build a été vérifié et le site répond.
+- Téléchargements directs : [Planispacial](https://eriche779.github.io/planispacial-celestial/downloads/Planispacial-fenix8solar51mm.prg) · [Celestial](https://eriche779.github.io/planispacial-celestial/downloads/Celestial-fenix8solar51mm.prg).
 
-L'état actuel de ce poste ne dispose pas d'une session GitHub CLI authentifiée; rien n'a été téléversé ni rendu public.
+Pour une mise à jour, modifier les fichiers du dépôt, créer un commit et pousser sur `main`; GitHub Pages rebâtira le site.
 
 ## Fichiers
 
