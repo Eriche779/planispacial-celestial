@@ -6,7 +6,7 @@ Cette page statique propose gratuitement les deux builds `.prg` destinés à la 
 
 - Compilée avec Connect IQ SDK 9.3.0.
 - Une version antérieure a été utilisée sur la montre.
-- Cette révision ajoute le réglage de latitude/longitude; cette version exacte n'a pas encore été vérifiée sur la montre.
+- Cette révision ajoute le réglage de latitude/longitude; la révision 1.0.1 ajoute un affichage de secours de l’heure et du cadran si le calcul astronomique échoue; elle reste à vérifier sur la montre.
 - Les calculs astronomiques restent approximatifs; voir le texte de la page.
 - La licence de redistribution n'est pas encore choisie. Ne pas réutiliser ou republier ces fichiers ailleurs sans accord.
 
